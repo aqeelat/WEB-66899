@@ -1,0 +1,38 @@
+{
+  "name": "@sawi/common",
+  "version": "1.0.0",
+  "description": "UI library for apps: admin & corporate",
+  "type": "module",
+  "main": "./lib/client/web/common/src/index.js",
+  "types": "./lib/client/web/common/src/index.d.ts",
+  "module": "./lib/client/web/common/src/index.js",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.38",
+    "copyfiles": "^2.4.1",
+    "notistack": "^3.0.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "copy-css": "copyfiles -u 1 src/styles/*.css lib/client/web/common/src",
+    "build": "yarn clean && tsc && yarn copy-css",
+    "dev": "yarn clean && yarn copy-css && tsc -w"
+  },
+  "packageManager": "yarn@4.1.1",
+  "engines": {
+    "yarn": "4.1.1"
+  },
+  "dependencies": {
+    "react-hook-form": "^6.13.1"
+  }
+}

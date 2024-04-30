@@ -1,0 +1,27 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "lib",
+
+    "moduleResolution": "Bundler",
+    "jsx": "react",
+
+    // Types
+    "declaration": true,
+
+    // JS
+    "allowJs": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "paths": {
+      "@sawi/schemas": ["./../../../schemas"]
+    }
+  },
+  "include": ["./src"]
+}

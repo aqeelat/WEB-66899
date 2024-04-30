@@ -1,0 +1,21 @@
+{
+	"exclude": ["node_modules"],
+	"files": ["./typings.d.ts"],
+	"compilerOptions": {
+		"target": "ES2022",
+		"useDefineForClassFields": true,
+		"lib": [
+			"ES5",
+			"ES6",
+			"ES2020",
+			"ES2022",
+			"DOM",
+			"DOM.Iterable",
+		],
+		"module": "ESNext",
+		"skipLibCheck": true,
+
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+	}
+}

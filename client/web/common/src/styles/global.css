@@ -1,0 +1,59 @@
+/* Global basic styles */
+body {
+  min-width: 375px;
+  max-width: 1920px;
+  margin: 0 auto !important;
+  font-family: Roboto, -apple-system, 'Helvetica Neue', sans-serif;
+  color: var(--mainTextColor);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+}
+
+.MuiInputAdornment-root .MuiIconButton-root {
+  color: var(--muiIconColor);
+}
+
+/* TODO: check if used */
+.story-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px;
+}
+
+.tab-badge {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: var(--alertColor);
+  color: var(--inverseTextColor);
+  border-radius: 50%;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+.text-primary {
+  color: var(--accentColor);
+}
+
+.text-success {
+  color: var(--successColor);
+}
+
+.text-alert {
+  color: var(--alertColor);
+}
+
+.text-gray {
+  color: var(--secondaryTextColor);
+}

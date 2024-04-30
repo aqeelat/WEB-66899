@@ -1,0 +1,54 @@
+:root {
+  /* Accent colors */
+  --accentColor: #2493d6;
+  --accentHoverColor: #157ab7;
+  --accentLightColor: rgba(36, 147, 214, 0.08);
+  --successColor: #1cbe69;
+  --successHoverColor: #1cda0f;
+  --alertColor: #e25141;
+  --alertHoverColor: #f00110;
+  --cancelColor: #d3d3d3;
+  --inactiveColor: #cdd0dd;
+  --inputFocusColor: #4696ec;
+  --muiIconColor: #999;
+  --warningColor: #DEBB1F;
+
+  /* Text colors */
+  --mainTextColor: #090909;
+  --secondaryTextColor: #777;
+  --inverseTextColor: #fff;
+  --titleColor: #08192e;
+  --buttonDisabledTextColor: #979797;
+
+  /* Background colors */
+  --mainBgColor: #fff;
+  --secondaryBgColor: #edf6fc;
+  --asideBgColor: #f9fafc;
+  --disabledBgColor: #eee;
+  --dividerBgColor: #c4c4c4;
+  --overlayBgColor: rgba(0,0,0,.4);
+  --imageOverlayBgColor: rgba(0,0,0,.65);
+
+  /* Borders */
+  --asideBorder: 1px solid var(--dividerBgColor);
+  --inputBorder: 1px solid #d4d9e2;
+
+  /* Shapes */
+  --commonBorderRadius: 4px;
+  --modalBorderRadius: 5px;
+  --cardBorderRadius: 3px;
+  --cardShadow: 0 0 3px rgba(0,0,0,.3);
+  --popoverShadow: 0 4px 15px rgba(0,0,0,.15);
+  --fixedLayerShadow: 0 1px 3px rgba(0,0,0,.2);
+  --modalShadow:
+    0 1px 2px rgba(0,0,0,.5),
+    0 10px 20px rgba(0,0,0,.5);
+
+  /* Chart colors */
+  --barChartBlue1: #2964BA;
+  --barChartBlue2: #2493D6;
+  --barChartBlue3: #89CBF3;
+
+  /* badge colors */
+  --badgeColorAlert: #f50057;
+}
